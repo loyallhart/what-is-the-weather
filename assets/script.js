@@ -153,10 +153,7 @@ function currentConditionsRequest(searchValue) {
                 forecastHumidity.text(response.list[i].main.humidity);
                 forecastHumidity.prepend("Humidity: ");
                 forecastHumidity.append("%");
-                
-                // console.log(response.list[i].dt_txt);
-                // console.log(response.list[i].main.temp);
-                // console.log(response.list[i].main.humidity);
+
 
             }
         });
