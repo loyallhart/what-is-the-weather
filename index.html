@@ -10,15 +10,29 @@
     <title>What Is The Weather</title>
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-dark d-flex justify-content-center">
+    <nav class="navbar navbar-dark bg-dark d-flex justify-content-center" >
         <h1>Weather Dashboard</h1>
       </nav>
-      <section>
-        
-      </section>
-
-        
-
-    
+      <div class="row justify-content-start">
+        <section class="d-flex flex-column col-2">
+        <h2 class="p-2">Search for a City:</h2>
+        <form id="searchForm" class="d-grid gap-3 p-2">
+            <input type="text" class="form-control" id="searchValue" name="city"/>
+            <button id="searchBtn" class="btn-primary btn">Search</button>
+        </form>
+    </section>
+      <section class="col-md-6" id="forecast">
+        <section class="card" id="today">
+            <h2 id="city" class="card-title">Search results will be displayed here!</h2>
+            <section class="card-body" id="todayConditions">
+                <p class="card text-bg-dark mb-3" id="temp"></p>
+                <p class="card text-bg-dark mb-3" id="wind"></p>
+                <p class="card text-bg-dark mb-3" id="humidity"></p>
+            </section>
+        </section>
+        <section class="d-lg-flex flex-wrap d-grid gap-3 mt-3 justify-content-center card text-bg-dark mb-3" id="5Day">
+            <h3></h3>
+        </section>
+  
 </body>
 </html>
