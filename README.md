@@ -40,7 +40,7 @@ THEN I am again presented with current and future conditions for that city
 
 The following shows a sample of the web application's appearance:
 
-![](assets/Weather-Mockup.jpg)
+![](assets/Weather-Mockup1.jpg)
 
 ## Deployment 
 
